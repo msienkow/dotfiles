@@ -11,6 +11,7 @@ alias update='sudo apt update && sudo apt upgrade -y'
 # General Aliases
 alias aliasconfig='nvim $HOME/.bash_aliases && source $HOME/.bashrc'
 alias aliases='clear && cat $HOME/.bash_aliases'
+alias bashconfig='nvim $HOME/.bashrc && source $HOME/.bashrc'
 alias cls='clear'
 alias ls='exa -la --color=always --group-directories-first'
 alias vim='nvim'
