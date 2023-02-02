@@ -116,7 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
 eval "$(starship init bash)"
+clear
 neofetch
-
